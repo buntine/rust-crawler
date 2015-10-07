@@ -1,0 +1,4 @@
+[package]
+name = "rust-crawler"
+version = "0.1.0"
+authors = ["Andrew Buntine <info@bunts.io>"]
