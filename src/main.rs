@@ -11,10 +11,10 @@ mod crawl {
 
         pub fn crawl(&mut self) {
             let base = self.base.clone();
-            self.parseWebpage(0, &base)
+            self.parse_webpage(0, &base)
         }
 
-        fn parseWebpage(&mut self, depth: i32, url: &String) {
+        fn parse_webpage(&mut self, depth: i32, url: &String) {
             println!("Parsing {}", url);
         }
     }
